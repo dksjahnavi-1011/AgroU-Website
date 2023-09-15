@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: #C7E9B0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+
+    background: #FAAB78;
+    width: 270px;
+
+    margin: 10px;
+    border-radius: 17px;
+
+}
+
+.card h2 {
+    color: black;
+}
+
+.card p {
+
+    background-color: #eadca6;
+}
+
+.card-image {
+
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 12px 12px 0 0;
+
+
+}
+
+.card-image h2 {
+    background-color: #e2bf81;
+
+}
+
+.car-1 {
+    background-image: url('images/drumstick.png');
+}
+
+.car-2 {
+    background-image: url('images/guva.png');
+}
+
+.car-3 {
+    background-image: url('images/brocli.png');
+}
+
+.car-4 {
+    background-image: url('images/carrot.png');
+}
+
+.car-5 {
+    background-image: url('images/watermelon.png');
+}
+
+.car-6 {
+    background-image: url('images/tomato.png');
+}
+
+.car-7 {
+    background-image: url('images/oranges.png');
+}
+
+.car-8 {
+    background-image: url('images/papaya.png');
+}
+
+.car-9 {
+    background-image: url('images/gooseberry.png');
+}
+
+.card h2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: bisque;
+    color: black;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 13px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: #bb3333;
+    color: #5F8D4E;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all ls ease;
+}
